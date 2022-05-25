@@ -1,0 +1,18 @@
+.buttonss {
+
+    border:1px solid black;
+    width: 70%; 
+    height: 600px;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hideButtonss{
+
+    display:none;
+  }
+  /* style={{ display: isVisible ? "block" : "none" }} */
+

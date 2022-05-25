@@ -1,0 +1,38 @@
+.eventTemplate {
+
+  
+    width: 630px;
+    height: 250px;
+    margin:30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+    transition:0.08s ease-in-out;
+    cursor: pointer;
+  
+}
+
+.eventTemplate#blue{
+
+    background-color: blue;
+    color:white;
+}
+
+.eventTemplate#yellow{
+
+    background-color: gold;
+    color: black;
+}
+
+.eventTemplate#green {
+
+    background-color: #77BC3F;
+    color: white;
+}
+
+.eventTemplate#red{
+
+
+    background-color: red;
+    color: white;
+}

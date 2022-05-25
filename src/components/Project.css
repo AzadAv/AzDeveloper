@@ -1,0 +1,43 @@
+.projectTemplate {
+
+    width:300px;
+    height: 300px;
+    margin:30px;
+    border-radius: 10px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    color: white;
+   
+    transition:0.08s ease-in-out;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+
+.projectTemplate#blue{
+
+    background-color: blue;
+    color:white;
+}
+
+.projectTemplate#yellow{
+
+    background-color: gold;
+    color: black;
+}
+
+.projectTemplate#green {
+
+    background-color: #77BC3F;
+    color: white;
+}
+
+.projectTemplate#red{
+
+
+    background-color: red;
+    color: white;
+}
