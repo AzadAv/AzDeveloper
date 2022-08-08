@@ -1,7 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router,Routes, Route} from "react-router-dom";
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, useContext } from 'react';
+import GeneralContext from "./store/general-context";
+import GeneralProvider from "./store/GeneralProvider";
 
 import LandingPage from "./screens/LandingPage";
 import HomePage from "./screens/HomePage";
@@ -26,6 +28,13 @@ function App() {
     }
   };
 
+  const generalCtx = useContext(GeneralContext);
+  const changeStyleCtx =()=>{
+
+    console.log(generalCtx.mode);
+
+  }
+
   //Language config
   const data = {
     en: ["English", "Azerbaijani", "Dark", "Light"],
@@ -48,9 +57,11 @@ function App() {
   };
 
   return (
+    <GeneralProvider>
     <div>
       <video src={AdVideo} id="video"  autoPlay loop muted>
      </video>
+     {/* <button onClick={changeStyleCtx}>Hello</button> */}
        <div className={"appHeader" + mode}>
         <button onClick={setEnglish} className={"button" + mode} id="en">
           <strong>{enBtn}</strong>
@@ -84,7 +95,9 @@ function App() {
         </button> 
 
         
-  </div> );
+  </div>
+  </GeneralProvider>
+  );
 }
 
 export default App;
