@@ -1,0 +1,120 @@
+.editorsContainerLight {
+
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 800px;
+
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.editorsContainerDark {
+
+    width:100%;
+    height:800px;
+    background-color: #242526;
+    color: white;
+    display: flex;
+    position: relative;
+    /* justify-content: left; */
+}
+.editorsContainerLight .header {
+
+    /* border: 1px solid black; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+
+    margin-bottom: 25px;
+}
+.editorsContainerDark .header {
+
+    /* border: 1px solid white; */
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+
+    margin-bottom: 25px;
+}
+.editorsItem {
+
+    width: 450px;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 25px;
+
+    background-color: #efefef;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.editorsItem span {
+
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.editorsItem .name {
+
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #16406D;
+
+    font-style: oblique;
+}
+.editorsItem .features {
+
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+
+    font-style: italic;
+}
+.editorsItem .numDataCont {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    width: 100%;
+    height: 18%;
+    
+}
+.editorsItem .numData {
+
+    width: 50%;
+    height: 100%;
+
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.editorsItem .button {
+
+    background-color: #16406D;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+    height: 10%;
+    border-radius: 10px;
+}

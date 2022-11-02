@@ -1,0 +1,17 @@
+.htmlEditorContainerLight {
+
+    border: 1px solid black;
+    width: 33.3%;
+    height: 99%;
+    resize: horizontal;
+}
+.htmlEditorContainerDark {
+
+    border: 1px solid white;
+    width: 33.3%;
+    height: 99%;
+    resize: horizontal;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}

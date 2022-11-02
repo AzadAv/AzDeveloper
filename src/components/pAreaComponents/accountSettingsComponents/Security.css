@@ -1,0 +1,39 @@
+.securityContainer {
+
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.securityContainer input {
+
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+}
+
+.emailContainer {
+
+    width: 100%;
+    height: 40%;
+    border: 1px solid gray;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.passwordContainer {
+
+    width: 100%;
+    height: 60%;
+    border: 1px solid gray;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

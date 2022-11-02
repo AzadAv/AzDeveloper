@@ -1,10 +1,11 @@
 import React from 'react';
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 import './Sign.css';
-import GButton from "../images/GButton.png";
-import FButton from "../images/FButton.png";
-import AdVideo from "../images/myAdvertisement.mp4";
+import GButton from "./images/GButton.png";
+import FButton from "./images/FButton.png";
+
 
 function Sign(props) {
 
@@ -149,10 +150,13 @@ function Sign(props) {
    
 
     <div className={'footer'+props.colors}>
-      <a href='/home'><button >Visit as Guest</button></a>
+      {/* <a href='/home'><button >Visit as Guest</button></a> */}
+      <NavLink to="/home" className={'navLink'}>
+              Visit as Guest 
+            </NavLink>
     </div>
-    </div>
-  )
+
+</div>)
 }
 
 export default Sign

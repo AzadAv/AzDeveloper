@@ -1,0 +1,85 @@
+.javaMainContainerLight {
+
+    width: 95%;
+    height: 95%;
+    margin-top: 1.5%;
+    margin-left: 2.5%;
+    /* border: 10px solid black; */
+  
+    border-radius: 15px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: wrap;
+    background-color: white;
+}
+.javaMainContainerDark {
+
+    width: 95%;
+    height: 95%;
+    margin-top: 1.5%;
+    margin-left: 2.5%;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: wrap;
+    background-color: #18191A;
+    color: white;
+}
+.halfBox {
+
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.javaContainerLight {
+
+    width: 40%;
+    height: 90%;
+    margin: 1%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.javaContainerDark {
+
+    width: 40%;
+    height: 90%;
+    margin: 1%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.javaContainerLight header {
+
+    color: #16406D;
+    font-size: 20px;
+    font-weight: 700;width: 80%;
+    text-align: center;
+}
+.javaContainerDark header {
+
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+}
+.javaContainer main {
+
+    /* border: 1px solid black; */
+}

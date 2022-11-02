@@ -1,0 +1,20 @@
+.homeContainerLight {
+
+    display:flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    overflow: hidden;
+
+}
+.homeContainerDark {
+
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    overflow: hidden;
+}
+.None {
+
+    display: none;
+ 
+}

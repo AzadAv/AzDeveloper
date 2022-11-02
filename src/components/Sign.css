@@ -152,7 +152,6 @@
 
     display: none;
 }
-
 .advertisementDarkNone {
 
     display: none;
@@ -224,13 +223,11 @@ video {
     border-radius: 5px;
     text-align: center;
 }
-
 .signInContainerLight label {
 
     font-size: 20px;
 
 }
-
 .signInContainerLight .signButtons {
 
     display: flex;
@@ -248,7 +245,6 @@ video {
     transition:0.2s ease-in ;
     
 } 
-
 .signInContainerLight .signButtons p {
 
     border:2px solid #16406D;
@@ -282,7 +278,6 @@ video {
     color: white;
 
 }
-
 .signInContainerLight .signButtons p:hover {
 
     background-color: #16406D;
@@ -294,7 +289,6 @@ video {
     color: white;
         border:1px solid white;
 }
-
 .signInContainerLight .signButtons p img{
 
     width:40px;
@@ -306,7 +300,6 @@ video {
     height:40px;
 }
 /* Sign Up */
-
 .signUpContainerLight {
     
     display: flex;
@@ -346,7 +339,6 @@ video {
 
     display: none;
 }
-
 .signUpContainerLight input {
 
     height:25px;
@@ -355,7 +347,6 @@ video {
     border-radius: 5px;
     text-align: center;
 }
-
 .signUpContainerDark input {
 
     height:25px;
@@ -372,23 +363,23 @@ video {
     margin-top: 15px;
 }
 
-.footerLight button {
+.footerLight .navLink {
 
         background-color: #16406D;
-        width:100px;
-        height: 60px;
         color:white;
         border:1px solid #16406D;
         transition:0.2s ease-in ;
-    
+        padding: 10px;
         text-align: center;
         font-size: large;
         cursor: pointer;
         border-radius: 10px;
+
+        text-decoration: none;
     
 }
 
-.footerLight button:hover {
+.footerLight .navLink:hover {
 
     background-color: white;
     color: #16406D;
@@ -400,11 +391,10 @@ video {
     margin-top: 15px;
 
 }
-.footerDark button {
+.footerDark .navLink {
 
     background-color: #18191A;
-    width:100px;
-    height: 60px;
+    
     color:white;
     border:1px solid white;
     transition:0.2s ease-in ;
@@ -413,8 +403,11 @@ video {
     font-size: large;
     cursor: pointer;
     border-radius: 10px;
+    padding: 10px;
+
+    text-decoration: none;
 }
-.footerDark button:hover {
+.footerDark .navLink:hover {
 
     background-color: #303031;
     color: white;
