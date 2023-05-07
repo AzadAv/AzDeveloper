@@ -1,0 +1,44 @@
+.photoContainerLight {
+
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+.photoContainerDark {
+
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+.imgContainer {
+
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+}
+#uploadItem {
+
+    width: 250px;
+    height: 40px;
+}
+.chooseButton {
+
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.none {
+
+    display: none;
+}

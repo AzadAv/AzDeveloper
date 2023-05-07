@@ -1,0 +1,23 @@
+Projects : 
+{
+"id": 0,
+"name": "example",
+"username": "user Example",
+"languages": ["first","second"],
+"likes": 0,
+"description": "example",
+"databaseType": "example",
+"style":"red",
+"link": "www.example.com/example"
+}
+
+Events : 
+{  
+   "id":1,
+   "instructor": "Dario",
+   "subject": "Java Programming Language",
+   "date": "28/05/2022",
+   "description":"Core Java, OOP patterns",
+   "participantsNumber":1000,
+   "zoomLink": "https://zoom.us/j/5551112233"
+}

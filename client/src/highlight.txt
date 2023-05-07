@@ -1,0 +1,21 @@
+toDoList : 
+    Explore :
+        Carousel for Communities and Editors components
+        Data for editors
+    Projects :
+        Add Project operation
+        Searchbar
+        Sort
+    Courses :
+        Content
+        Success rate level
+    Dictionary :
+        Content
+        Searchbar
+    Events :
+        Add Project operation
+        Searchbar
+        Sort
+    Editor :
+        js configuration
+        buttons fix

@@ -1,0 +1,113 @@
+.dicButtonsContainerLight {
+
+    
+    border-radius: 10px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+   /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+   align-items: center;
+   justify-content: space-between;
+   /* border: 1px solid black; */
+   background-color: #E4E3E8;
+}
+
+.dicButtonsContainerDark {
+
+
+    /* margin: 0.5%;
+    margin-bottom: 2.5%; */
+    border-radius: 10px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: #303031; 
+   /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+   align-items: center;
+   justify-content: space-between;
+}
+
+.dicButtonLight {
+
+    /* border: 1px solid black; */
+    width: 60px;
+    border-radius: 5px;
+    /* margin-right: 1%;
+    margin-left: 1%; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    color: #16406D;
+    transition:0.1s ease-in ;
+
+}
+.dicButtonLightActive {
+
+    /* border: 1px solid black; */
+    width: 60px;
+    border-radius: 5px;
+    /* margin-right: 1%;
+    margin-left: 1%; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #16406D;
+    color: white;
+    transition:0.1s ease-in ;
+}
+
+.dicButtonLight:hover {
+
+    background-color: #16406D;
+    color: white;
+}
+
+.dicButtonDark {
+
+    /* border: 1px solid white; */
+    width: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    transition:0.1s ease-in ;
+    color: white;
+}
+
+.dicButtonDarkActive {
+
+    /* border: 1px solid white; */
+    background-color: #404041;
+    border-radius: 5px;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
+.dicButtonDark:hover {
+
+
+    /* border: 1px solid white; */
+    background-color: #404041;
+}
+

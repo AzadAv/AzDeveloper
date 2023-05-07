@@ -1,0 +1,29 @@
+.homePageContainerLight {
+
+    /* height:593px; */
+    width: 100%;
+    text-align: center;
+    padding: none;
+    margin: none;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.homePageContainerDark{
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #18191A;
+    color: white;
+    /* height:593px; */
+
+    text-align: center;
+
+}
+
+
+

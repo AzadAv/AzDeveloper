@@ -1,0 +1,156 @@
+.dicItemsContainerLight {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center; 
+    /*align-items: center;*/
+
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.dicItemsContainerDark {
+
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.itemLight {
+
+    background-color: #E4E3E8;
+    width: 470px;
+    height: 220px; 
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(17, 12, 46, 0.10) 0px 48px 100px 0px;
+}
+.itemDark {
+    background-color: #303031; 
+    width: 470px;
+    height: 220px; 
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.itemNameLight {
+
+    /* border: 1px solid black; */
+    color:white;
+    background-color: #16406D;
+    width: 90%;
+    height: 13%;
+    margin-top: 5px;
+    border-radius: 7px;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.itemNameDark {
+
+    /* border: 1px solid white; */
+    background-color: #18191A;
+    width: 90%;
+    height: 13%;
+    margin-top: 5px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionEnLight {
+
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    width: 90%;
+    height: 38%;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: #C05629;
+    color: white;
+}
+.descriptionEnDark {
+
+    width: 90%;
+    height: 38%;
+    border-radius: 15px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: #3B444B;
+
+    /* #301934 */
+    /* #3B444B */
+
+    /* #1DCA7F */
+    /* #047870 */
+    /* #131B31 */
+    /* #AA99E6 */
+    /* #C05629 */
+}
+
+.descriptionAzeLight {
+
+    width: 90%;
+    height: 38%;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-right: 30px;
+     background-color: #047870;
+     color: white;
+}
+
+.descriptionAzeDark {
+
+    width: 90%;
+    height: 38%;
+    border-radius: 15px;
+    color: white;
+    margin-top: 5px;
+    margin-right: 30px;
+    background-color: #232B2B;
+
+}
+.lineLight {
+
+
+    width: 88%;
+    background-color:#16406D;
+    border: 0.1px solid #16406D;
+}
+.lineDark {
+
+    width: 88%;
+    background-color:white;
+    border: 0.1px solid white;
+}

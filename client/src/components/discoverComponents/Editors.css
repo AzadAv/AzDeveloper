@@ -1,0 +1,183 @@
+.editorsContainerLight {
+
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 800px;
+  
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.editorsContainerDark {
+
+    width:100%;
+    height:800px;
+    background-color: #242526;
+    color: white;
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: left; */
+}
+.editorsContainerLight .header {
+
+    /* border: 1px solid black; */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+    width: 98%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.editorsContainerDark .header {
+
+    /* border: 1px solid white; */
+    /* background-color: white; */
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+    width: 98%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.editorsScrollContainer::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.scrollButtonLight {
+
+    width:104px;
+    height:40px;
+    border:none;
+    background: none;
+   
+    border-radius: 5px;
+    text-align: center;
+    
+    cursor: pointer;
+    background-color: white;
+    color: #16406D;
+    font-size: 28px;
+    font-weight: 900;
+    transition: 0.15s ease-in ;
+    /* border: 1px solid #16406D; */
+}
+.scrollButtonLight:hover {
+
+    background-color: #16406D;
+    color: white;
+
+}
+.scrollButtonDark {
+
+    
+    width:104px;
+    height:40px;
+    border:none;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+    background: none;
+    transition: 0.15s ease-in ;
+
+}
+.scrollButtonDark:hover {
+
+    color:white;
+    background-color: black;
+}
+.editorsItemLight {
+
+    width: 450px;
+    height: 550px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 25px;
+
+    color: #16406D;
+    background-color: #efefef;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.editorsItemDark {
+
+    width: 450px;
+    height: 650px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 25px;
+
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.editors-item-name {
+
+    width: 450px;
+    height: 10%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+
+    /* border: 1px solid black; */
+    font-style: oblique;
+}
+.editors-item-features {
+
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    /* border: 1px solid black; */
+    font-style: italic;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.editors-item-button {
+
+    font-size: 18px;
+    font-weight: 200;
+    background-color: #16406D;
+    color: white;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+
+    height: 10%;
+    border-radius: 10px;
+    width: 20%;
+}

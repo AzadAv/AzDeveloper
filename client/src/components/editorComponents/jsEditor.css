@@ -1,0 +1,16 @@
+.jsEditorContainerLight {
+
+    border: 1px solid black;
+    width: 33.3%;
+    height: 99%;
+    resize: horizontal;
+}
+.jsEditorContainerDark {
+
+    border: 1px solid white;
+    width: 33.3%;
+    height: 99%;
+    resize: horizontal;
+    background-color: black;
+    color: white;
+}

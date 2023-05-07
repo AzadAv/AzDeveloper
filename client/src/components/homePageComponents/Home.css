@@ -1,0 +1,106 @@
+.homeContainerLight {
+
+    display:flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
+.homeContainerDark {
+
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    color: white;
+}
+
+.reelItemLight {
+
+    /* margin: 5px; */
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    width: 49.5%;
+    height: 100%;
+     text-align: center;
+    color: #16406D;
+    cursor: pointer; 
+    /* margin-right: 10%; */
+    /* margin-left: 15%; */
+    /* padding: 5px; */
+    transition: 0.1s ease-in;
+    
+
+   
+}
+.reelItemLightActive {
+
+    /* margin: 5px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: #16406D;
+    color: white;
+    cursor: pointer;
+    /* margin-right: 10%; */
+    /* margin-left: 15%; */
+    /* padding: 5px; */
+    transition: 0.1s ease-in; 
+    width: 49.5%;
+    height: 100%;
+    text-align: center;
+}
+.reelItemLight:hover {
+    background-color: #16406D;
+    color: white;
+}
+.reelItemDark {
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    width: 49.5%;
+    height: 100%;
+     text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+  
+    color: white;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.reelItemDarkActive {
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    width: 49.5%;
+    height: 100%;
+     text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+
+    color: white;
+    background-color: #303031;
+    cursor: pointer;
+   
+    transition: 0.1s ease-in;    
+}
+.reelItemDark:hover {
+
+    background-color: #303031;
+}
+.None {
+
+    display: none;
+ 
+}
